@@ -86,3 +86,28 @@ idade >= 18 ? console.log("Maior de idade") : console.log("Menor de idade")
     70 acima -> 3 anos
 */
 
+if(idade <18){
+    console.log(`COM ${idade}, NÃO É PERMITIDO POSSUIR CNH`)
+} else if(idade < 50){
+    console.let(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É DE 10 ANOS`)
+} else if(idade <70){
+    console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É DE 5 ANOS`)
+} else {
+    console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É 3 ANOS`)
+}
+
+//Tabela verdade
+
+/*
+    Conjunção -> && e
+    VV V
+    VF F
+    FV F
+    FF F
+
+    Disjunção -> || ou
+    VV V
+    VF v
+    FV V
+    FF F
+*/
