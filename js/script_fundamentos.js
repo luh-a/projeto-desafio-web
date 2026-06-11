@@ -111,3 +111,16 @@ if(idade <18){
     FV V
     FF F
 */
+
+/**
+ * AUTORIZAÇÃO DE ACESSO PARA UM AMBIENTE  SEJA DO SEGUINTE MODO:
+ * TER IDADE MAIOR OU IGUAL 18 ANOS R$ 1000
+ */
+
+let valor = 1500
+
+if ((idade>=18) && (valor >=1000)){
+    console.log("Autorizado o acesso")
+} else {
+    console.log("Acesso negado")
+}
